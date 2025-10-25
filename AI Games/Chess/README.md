@@ -9,14 +9,18 @@ This project implements a two-player Chess game where the human player (White) c
 i. How to run your:
 
 1.fileSave the File: Save the provided code as chess_minimax.py.
+
 2.Terminal/Command Prompt: Open a terminal or command prompt in the directory where you saved the file and run the following command:python chess_minimax.py
+
 3.A Graphical User Interface (GUI) of the chessboard will open.
 
 ii. Any software/library/framework needs to pre-install
 
 To run the game, you need the following Python library installed:
-Python 3+tkinter: 
-Usually included with standard Python installations.python-chess: 
+Python 3+tkinter:
+
+Usually included with standard Python installations.python-chess:
+
 This powerful library handles all the core chess logic, rules, and board manipulation. You must install it using pip:
 pip install python-chess
 
@@ -25,18 +29,26 @@ pip install python-chess
 iii. Describe how to play that game (Gameplay)
 
 Player: You control the White pieces.
+
 AI Opponent: The AI controls the Black pieces.
+
 Making a Move:Click on the piece you want to move.
+
 Possible destinations will be highlighted in yellow (move) or red (capture).
+
 Click on the destination square to complete your move.
+
 The AI will automatically make its move shortly after yours.
 
   AI Difficulty Level:
 
 Use the "🎯 Level" button below the board to change the AI's difficulty, which directly relates to the Minimax search depth:
 Easy (Depth 1): The AI only looks at the immediate result of the next move.
+
 Medium (Depth 2): The AI analyzes up to 2 future moves (balanced challenge).
+
 Hard (Depth 3): The AI analyzes up to 3 future moves (very strong challenge).
+
 Pause/Resume: Use the "⏸ Pause" button to temporarily stop the game.
 
 🧠 AI Algorithm 
