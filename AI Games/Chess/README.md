@@ -6,13 +6,13 @@ This project implements a two-player Chess game where the human player (White) c
 
 🛠️ Requirements and Setup 
 
-i. How to run your:
+i. How to run your file:
 
-1.fileSave the File: Save the provided code as chess_minimax.py.
+1. Save the File: Save the provided code as chess_minimax.py.
 
-2.Terminal/Command Prompt: Open a terminal or command prompt in the directory where you saved the file and run the following command:python chess_minimax.py
+2. Terminal/Command Prompt: Open a terminal or command prompt in the directory where you saved the file and run the following command:python chess_minimax.py
 
-3.A Graphical User Interface (GUI) of the chessboard will open.
+3. A Graphical User Interface (GUI) of the chessboard will open.
 
 ii. Any software/library/framework needs to pre-install
 
