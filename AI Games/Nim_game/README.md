@@ -4,7 +4,7 @@
 
 This project implements the classic impartial game of Nim with a Graphical User Interface (GUI). The game is played between a human user and an Artificial Intelligence (AI). The AI determines its optimal moves using the Minimax Algorithm to ensure a win whenever possible.
 
-🛠️ Requirements and Setup (Point 3.c.i & 3.c.ii)
+🛠️ Requirements and Setup 
 
 i. How to run your file
 
@@ -25,7 +25,7 @@ Python 3+
 
 tkinter: This is a standard Python library used for the GUI and is usually included with Python installations. No external installation is typically required.
 
-🕹️ Gameplay and Visuals (Point 3.c.iii & 3.c.iv)
+🕹️ Gameplay and Visuals 
 
 iii. Describe how to play that game (Gameplay)
 
@@ -44,14 +44,6 @@ Click on the button that corresponds to the number of stones you wish to remove 
 After your move, the AI will process its turn and update the piles.
 
 Winning/Losing: The game announces the winner when the piles are empty.
-
-iv. Keep images/Screenshots of the game (Visuals)
-
-(Please insert two screenshots of your running Nim Game GUI here:)
-
-Image 1: Screenshot showing the initial board state with the move buttons.
-
-Image 2: Screenshot showing the "You Win!" or "AI Wins!" message in the info label.
 
 🧠 AI Algorithm (Point 3.c.v)
 
