@@ -1,4 +1,5 @@
-♟️ AI Chess Game (Human vs Minimax)🎯 
+                    ♟️ AI Chess Game (Human vs Minimax)🎯 
+
 Project DescriptionThis project implements a two-player Chess game where the human player (White) competes against an Artificial Intelligence (Black). The AI uses the Minimax Algorithm to determine its best move by searching through the game tree up to a defined depth.
 
 🛠️ Requirements and Setup 
