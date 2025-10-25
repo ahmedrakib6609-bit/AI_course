@@ -73,8 +73,8 @@ def minimax(board, depth, is_maximizing):
 SQUARE_SIZE = 60
 COLORS = ["#EEEED2", "#769656"]  # light / dark chess colors
 HIGHLIGHT_MOVE = "#F7D154"       # Yellow for possible move destination
-HIGHLIGHT_CAPTURE = "#E74C3C"    # Red for capture squares
-CHECK_HIGHLIGHT = "#FF7B7B"      # Light red for check signal
+HIGHLIGHT_CAPTURE = "#E74C3C"    # Red for capture squares
+CHECK_HIGHLIGHT = "#FF7B7B"   # Light red for check signal
 CHECKMATE_BLINK_COLOR = "#FF3333"  # Strong red blink
 
 # ===================== GUI Class (Tkinter) =====================
@@ -341,3 +341,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     gui = ChessGUI(root)
     root.mainloop()
+
