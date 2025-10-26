@@ -1,13 +1,8 @@
 🧠 AI Tools Exploration
+
 🎓 Course Name: Artificial Intelligence
 
-Course Duration: 4 Months 
-
-Course Taken by: Mr. Razorshi Prozzwal Talukder 
-
-Student Name: Md. Rakib Ahmed 
-
-Department: Computer Science & Engineering 
+Course Duration: 4 Months  
 
 🎬 AI Course Video
 
@@ -15,7 +10,7 @@ This short video demonstrates the overall journey of our Artificial Intelligence
 including theoretical concepts and lab-based algorithm & game implementations.
 
 🎥 Watch the Video:
-AI_Video.mp4
+AI.mp4
 
 Tool Used: 🪄 Pictory.ai
 Type: Text-to-Video with AI Voiceover
@@ -95,5 +90,3 @@ These works showcase how AI tools can be effectively used in education, automati
 Md. Rakib Ahmed
 
 Department of Computer Science & Engineering
-
-(Artificial Intelligence Course – 4 Months)
