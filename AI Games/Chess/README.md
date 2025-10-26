@@ -1,66 +1,104 @@
-♟️ AI Chess Game (Human vs Minimax)🎯 
+# Chess Game (Human vs AI)
 
-Project Description
+## 📘 Overview
 
-This project implements a two-player Chess game where the human player (White) competes against an Artificial Intelligence (Black). The AI uses the Minimax Algorithm to determine its best move by searching through the game tree up to a defined depth.
+This project implements a **Chess game** where a human player plays as White against an AI opponent (Black). The AI uses the **Minimax algorithm** for decision-making, with an evaluation based on **material count**. The game includes a GUI built with **Tkinter**.
 
-🛠️ Requirements and Setup 
+---
 
-i. How to run your file:
+## 🖥️ Files in this folder
 
-1. Save the File: Save the provided code as chess_minimax.py.
+* `chess_minimax.py`: Main Python source code.
+* `input_output_screenshots/`: Folder containing gameplay screenshots.
+* `README.md`: This file.
 
-2. Terminal/Command Prompt: Open a terminal or command prompt in the directory where you saved the file and run the following command:python chess_minimax.py
+---
 
-3. A Graphical User Interface (GUI) of the chessboard will open.
+## ⚙️ How to Run
 
-ii. Any software/library/framework needs to pre-install
+1. Ensure **Python 3.x** is installed on your system.
+2. Install the required libraries:
 
-To run the game, you need the following Python library installed:
-Python 3+tkinter:
-
-Usually included with standard Python installations.python-chess:
-
-This powerful library handles all the core chess logic, rules, and board manipulation. You must install it using pip:
+```bash
 pip install python-chess
+```
 
-🕹️ Gameplay and Visuals
+3. Run the game:
 
-iii. Describe how to play that game (Gameplay)
+```bash
+python chess_minimax.py
+```
 
-Player: You control the White pieces.
+---
 
-AI Opponent: The AI controls the Black pieces.
+## 🎮 How to Play
 
-Making a Move:Click on the piece you want to move.
+1. Click on a White piece to select it.
+2. Click on a valid destination square to move the piece.
+3. The AI will make its move automatically after yours.
+4. The game ends when one side is checkmated or a draw occurs.
+5. You can use the buttons to:
 
-Possible destinations will be highlighted in yellow (move) or red (capture).
-Click on the destination square to complete your move.
-The AI will automatically make its move shortly after yours.
+   * **Restart**: Reset the game.
+   * **Pause/Resume**: Pause or resume the game.
+   * **Level**: Change AI difficulty (Easy/Medium/Hard).
 
-  AI Difficulty Level:
+### Features
 
-Use the "🎯 Level" button below the board to change the AI's difficulty, which directly relates to the Minimax search depth:
+* Check/checkmate signal with blinking effect.
+* Pawn promotion dialog.
+* AI difficulty levels adjusting the depth of Minimax.
 
-Easy (Depth 1): The AI only looks at the immediate result of the next move.
+---
 
-Medium (Depth 2): The AI analyzes up to 2 future moves (balanced challenge).
+## 🧰 Algorithm Used
 
-Hard (Depth 3): The AI analyzes up to 3 future moves (very strong challenge).
+* **Minimax Algorithm**: AI evaluates all possible moves up to a depth limit and chooses the move with the optimal outcome.
+* **Heuristic Evaluation**: Counts material value (pieces) to determine the board score.
 
-Pause/Resume: Use the "⏸ Pause" button to temporarily stop the game.
+| Piece  | Value | 
+| ------ | ----- | 
+| Pawn   | 1     |  
+| Knight | 3     | 
+| Bishop | 3     | 
+| Rook   | 5     | 
+| Queen  | 9     | 
+| King   | 1000  | # High to prioritize safety |
 
-🧠 AI Algorithm 
+---
 
-iv. Which algorithm is used for that game
+## 📸 Screenshots
 
-Algorithm Name: Minimax Algorithm
-The Minimax Algorithm is employed here to find the optimal move for the AI (Black).
+The folder `input_output_screenshots/` contains images showing gameplay examples, check signals, and game-over scenarios.
 
-Algorithm Functionality:
+---
 
-1.Objective: Minimax is a recursive decision-making algorithm used in two-player, zero-sum games. It finds the move that minimizes the maximum possible loss for the AI (Minimizing Player) and maximizes the minimum possible gain for the Human (Maximizing Player).
+## ✅ Features
 
-2.Heuristic/Evaluation Function:The AI evaluates the board primarily based on Material Value (Pawn=1, Queen=9, King=1000, etc.).The score is determined by subtracting the Black pieces' value from the White pieces' value. A positive score favors White, and a negative score favors Black (the AI).
+* Human vs AI chess.
+* AI uses Minimax with adjustable depth.
+* Visual indicators for possible moves and captures.
+* Check/checkmate signals with blinking effect.
+* Simple and interactive GUI using Tkinter.
 
-3.Search Depth: The complexity of the AI's decision is controlled by the 'Depth' parameter in the Minimax function, which is adjusted by the difficulty level (1, 2, or 3).
+---
+
+## ⚠️ Dependencies
+
+* Python 3.x
+* `tkinter` (usually comes pre-installed with Python)
+* `python-chess` library
+
+Install `python-chess` using:
+
+```bash
+pip install python-chess
+```
+
+---
+
+## ✍️ Author
+
+Created by: [Your Name]
+Course: Artificial Intelligence (CSE)
+Institution: [Your Institute]
