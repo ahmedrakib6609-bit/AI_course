@@ -11,8 +11,8 @@ The course was designed to provide both **theoretical understanding** and **hand
 ## 📅 Course Details
 - **Course Name:** Artificial Intelligence  
 - **Course Duration:** 4 Months  
-- **Course Taken by: Mr. Razorshi Prozzwal Talukder
-- **Student Name: Md. Rakib Ahmed
+- **Course Taken by:** Mr. Razorshi Prozzwal Talukder
+- **Student Name:** Md. Rakib Ahmed
 - **Department:** Computer Science & Engineering  
 
 ---
@@ -85,6 +85,6 @@ It demonstrates how Artificial Intelligence can be applied in solving real-world
 ---
 
 🖋️ **Prepared By:**  
-Md. Rakib Ahmed
+**Md. Rakib Ahmed**
 Department of Computer Science & Engineering  
 *(Artificial Intelligence Course – 4 Months)*  
