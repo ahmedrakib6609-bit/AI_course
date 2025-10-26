@@ -1,10 +1,10 @@
-###🧠 AI Tools Exploration
+### 🧠 AI Tools Exploration
 
-##🎓 Course Name: Artificial Intelligence
+## 🎓 Course Name: Artificial Intelligence
 
 Course Duration: 4 Months  
 
-##🎬 AI Course Video
+## 🎬 AI Course Video
 
 This short video demonstrates the overall journey of our Artificial Intelligence course,
 including theoretical concepts and lab-based algorithm & game implementations.
@@ -16,7 +16,7 @@ Tool Used: 🪄 Pictory.ai
 Type: Text-to-Video with AI Voiceover
 Duration: ~4 Minutes
 
-##Video Includes:
+## Video Includes:
 
 Introduction to AI
 
@@ -28,12 +28,12 @@ Game Algorithms (Minimax & Alpha-Beta Pruning)
 
 AI-based Game Demonstrations (Chess, Tic Tac Toe, Nim)
 
-###🖼️ AI Course Presentation
+### 🖼️ AI Course Presentation
 
 The presentation summarizes all theoretical and practical parts of the AI course.
 It visually explains the algorithms, AI agents, environments, and lab implementations.
 
-##📊 View Presentation:
+## 📊 View Presentation:
 
 👉 Click here to open the presentation:
 Presentation - Artificial Intelligence Course.pdf
@@ -43,7 +43,7 @@ Slides: 12
 Type: AI-Generated Slides (using ChatGPT + Canva)
 
 ⚙️ Process & Tools Used
-###🪄 1. Video Creation Process
+### 🪄 1. Video Creation Process
 
 Prepared a professional 4-minute script using ChatGPT.
 
@@ -57,7 +57,7 @@ Exported and uploaded the video to Google Drive.
 
 Tool Used: Pictory.ai
 
-###🧩 2. Presentation Creation Process
+### 🧩 2. Presentation Creation Process
 
 Used ChatGPT to generate the slide text for all AI topics.
 
@@ -75,7 +75,7 @@ Canva Magic Presentation
 
 ChatGPT
 
-###📚 Summary
+### 📚 Summary
 
 This folder contains all creative work generated using AI tools for the Artificial Intelligence course.
 
@@ -85,7 +85,7 @@ This folder contains all creative work generated using AI tools for the Artifici
 
 These works showcase how AI tools can be effectively used in education, automation, and creativity.
 
-##🖋️ Prepared By:
+## 🖋️ Prepared By:
 
 Md. Rakib Ahmed
 
