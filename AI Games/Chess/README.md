@@ -69,7 +69,7 @@ python chess_minimax.py
 
 ## 📸 Screenshots
 
-The folder `input_output_screenshots/` contains images showing gameplay examples, check signals, and game-over scenarios.
+The folder `chess1.png , chess2.png , chess3.png ` contains images showing gameplay examples, check signals, and game-over scenarios.
 
 ---
 
