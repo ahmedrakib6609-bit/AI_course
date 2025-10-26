@@ -36,7 +36,7 @@ The presentation summarizes all theoretical and practical parts of the AI course
 It visually explains the algorithms, AI agents, environments, and lab implementations.
 
 📊 View Presentation:
-👉 Click here to open the presentation
+👉 Click here to open the presentation: Presentation - Artificial Intelligence Course.pdf
 
 Tool Used: 🧩 Canva Magic Presentation
 Slides: 12
@@ -86,6 +86,6 @@ This folder contains all creative work generated using AI tools for the Artifici
 These works showcase how AI tools can be effectively used in education, automation, and creativity.
 
 🖋️ Prepared By:
-[Your Name]
+Md. Rakib Ahmed
 Department of Computer Science & Engineering
 (Artificial Intelligence Course – 4 Months)
