@@ -1,64 +1,61 @@
-🪨 AI Nim Game (Minimax Strategy)
+# Nim Game
 
-🎯 Project Description
+---
 
-This project implements the classic impartial game of Nim with a Graphical User Interface (GUI). The game is played between a human user and an Artificial Intelligence (AI). The AI determines its optimal moves using the Minimax Algorithm to ensure a win whenever possible.
+## 🧠 Project Overview
 
-🛠️ Requirements and Setup 
+This project implements the **Nim Game** using a **Graphical User Interface (GUI)** built with **Tkinter**. The **AI opponent** is powered by the **Minimax Algorithm**, which ensures the computer plays optimally.
 
-i. How to run your file
+The game follows the **Normal Play Nim rules** — the player who removes the last stone **wins**.
 
-Save the File: Save the provided code as nim_game.py.
+---
 
-Terminal/Command Prompt: Open a terminal or command prompt in the directory where you saved the file and run the following command:
+## ⚙️ How to Run
 
-python nim_game.py
+1. Make sure **Python 3.x** is installed.
+2. Ensure **Tkinter** is available (usually pre-installed). If not, install it using:
 
+   ```bash
+   sudo apt install python3-tk   # For Linux
+   ```
+3. Run the game with:
 
-A small, interactive GUI window will open, displaying the piles of stones.
+   ```bash
+   python nim_game.py
+   ```
+4. A GUI window will appear with three piles of stones `[3, 4, 5]`.
 
-ii. Any software/library/framework needs to pre-install
+---
 
-To run the game, you only need:
+## 🕹️ How to Play
 
-Python 3+
+* **Your Turn (Human):** Click a button to remove 1 or more stones from any pile.
+* **AI Turn:** The AI automatically makes its optimal move.
+* **Goal:** Take the **last stone** to win.
 
-tkinter: This is a standard Python library used for the GUI and is usually included with Python installations. No external installation is typically required.
+When the game ends:
 
-🕹️ Gameplay and Visuals 
+* 🎉 *You Win!* → Human wins.
+* 🤖 *AI Wins!* → AI wins.
 
-iii. Describe how to play that game (Gameplay)
+---
 
-Initial Setup: The game starts with three piles of stones: Pile 0 (3 stones), Pile 1 (4 stones), and Pile 2 (5 stones).
+## 🧩 Algorithm Used — Minimax
 
-Objective (Normal Play): The player who takes the last stone wins.
+The **Minimax Algorithm** is used for the AI’s decision-making.
 
-Turns: The Human player starts first ("Your turn 🧑").
+* The **AI (Maximizing Player)** tries to maximize its score.
+* The **Human (Minimizing Player)** tries to minimize it.
+* The AI evaluates every possible move recursively to select the best state.
+* Terminal states are evaluated to determine win/loss outcomes.
 
-Making a Move:
+---
 
-Below each pile label (e.g., "Pile 0: 3 stones"), you will see buttons labeled -1, -2, etc.
+## 📝 Notes
 
-Click on the button that corresponds to the number of stones you wish to remove from that single pile.
+* GUI is developed using **Tkinter Frames** and **Buttons**.
+* Buttons get automatically disabled when the game ends.
+* Minimax ensures the AI plays with perfect strategy.
 
-After your move, the AI will process its turn and update the piles.
+---
 
-Winning/Losing: The game announces the winner when the piles are empty.
-
-🧠 AI Algorithm (Point 3.c.v)
-
-v. Which algorithm is used for that game
-
-Algorithm Name: Minimax Algorithm (Applied to Nim)
-
-The Minimax Algorithm is used by the AI to play Nim optimally.
-
-Algorithm Functionality:
-
-Decision Tree: Minimax explores the entire game tree from the current state to find the move that leads to a forced win (if one exists).
-
-Evaluation: The game is finite and impartial, allowing for a simple terminal evaluation:
-
-If the end state is reached, the evaluation is 1 for the winner and -1 for the loser (depending on whose turn it was previously).
-
-Optimal Strategy: By assuming the human player will also play optimally, Minimax ensures the AI (Minimizing Player) always chooses a move that minimizes the maximum potential gain for the opponent (Maximizing Player). This is equivalent to finding the P-positions (Previous player winning positions) in Nim theory, guaranteeing the AI's victory when mathematically possible.
