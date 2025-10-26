@@ -1,9 +1,5 @@
 ### 🧠 AI Tools Exploration
 
-## 🎓 Course Name: Artificial Intelligence
-
-Course Duration: 4 Months  
-
 ## 🎬 AI Course Video
 
 This short video demonstrates the overall journey of our Artificial Intelligence course,
