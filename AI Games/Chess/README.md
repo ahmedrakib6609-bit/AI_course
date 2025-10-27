@@ -99,6 +99,6 @@ pip install python-chess
 
 ## ✍️ Author
 
-Created by: [Your Name]
+Created by: Md. Rakib Ahmed
 Course: Artificial Intelligence (CSE)
-Institution: [Your Institute]
+
