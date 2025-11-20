@@ -1,9 +1,9 @@
-🌟 AI Agent Project
+##🌟 AI Agent Project
 
 A clean, modular, and production-ready AI Agent System powered by Google Gemini, LangChain, and custom-built research tools.
 This agent can search the web, fetch Wikipedia data, save outputs, and provide intelligent conversational responses—similar to a lightweight ChatGPT.
 
-✨ Key Highlights
+##✨ Key Highlights
 🚀 Google Gemini (gemini-2.5-flash)–powered LLM
 🔎 DuckDuckGo & Wikipedia integrated research tools
 💾 Auto-save outputs to a text file
@@ -12,7 +12,7 @@ This agent can search the web, fetch Wikipedia data, save outputs, and provide i
 
 🧩 Cleanly separated modules (main, tools, agent initializer)
 
-📂 Project Structure
+##📂 Project Structure
 
 AI Agent Project/
 │── README.md
@@ -22,7 +22,7 @@ AI Agent Project/
 │── requirements.txt
 └── .env                   # Gnvironment config
 
-🧠 How the Agent Works
+##🧠 How the Agent Works
 🔹 1) Loads settings from .env
 Loads your GEMINI_API_KEY securely.
 🔹 2) Initializes the Gemini LLM
@@ -40,7 +40,7 @@ Read Wikipedia
 Save research
 Give short answers + opinions
 
-⚙️ Installation & Setup
+##⚙️ Installation & Setup
 1️⃣ Clone Repository
 git clone https://github.com/<your-username>/AI-Course
 cd AI-Course/AI Agent Project
@@ -70,11 +70,11 @@ You: What is AI?
 
 It will search → reason → answer.
 
-📸 Screenshot
+##📸 Screenshot
 Paste this markdown after uploading your screenshot to an images/ folder:
 ![AI Agent Demo](AI agent demo.png)
 
-📦 Requirements
+##📦 Requirements
 langchain==0.3.0
 langchain-community==0.3.0
 langchain-google-genai==2.0.0
@@ -83,12 +83,12 @@ python-dotenv==1.0.1
 duckduckgo-search==5.2.2
 wikipedia==1.4.0
 
-🚀 Future Enhancements
+##🚀 Future Enhancements
 Memory-enabled long-term agent
 Vector DB (FAISS/Chroma) integration
 Web UI with Streamlit
 Automated research agent
 Logging & analytics
 
-👨‍💻 Author
+##👨‍💻 Author
 Md. Rakib Ahmed
