@@ -4,20 +4,16 @@ A clean, modular, and production-ready AI Agent System powered by Google Gemini,
 This agent can search the web, fetch Wikipedia data, save outputs, and provide intelligent conversational responses—similar to a lightweight ChatGPT.
 
 ✨ Key Highlights
-
 🚀 Google Gemini (gemini-2.5-flash)–powered LLM
-
 🔎 DuckDuckGo & Wikipedia integrated research tools
-
 💾 Auto-save outputs to a text file
-
 🧠 REACT-style reasoning with LangChain
-
 🔐 Secured API key handling using .env
 
 🧩 Cleanly separated modules (main, tools, agent initializer)
 
 📂 Project Structure
+
 AI Agent Project/
 │── README.md
 │── main.py                # Interactive CLI agent, LLM, tools, and agent setup
@@ -28,35 +24,20 @@ AI Agent Project/
 
 🧠 How the Agent Works
 🔹 1) Loads settings from .env
-
 Loads your GEMINI_API_KEY securely.
-
 🔹 2) Initializes the Gemini LLM
-
 Using:
-
 ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.2)
-
 🔹 3) Loads custom tools
-
 DuckDuckGo Search
-
 Wikipedia Summary
-
 Save-to-file tool
-
 🔹 4) Creates a REACT-based agent
-
 The agent can:
-
 Think
-
 Search
-
 Read Wikipedia
-
 Save research
-
 Give short answers + opinions
 
 ⚙️ Installation & Setup
@@ -76,30 +57,22 @@ pip install -r requirements.txt
 GEMINI_API_KEY="your_api_key_here"
 
 ▶️ Run the Agent
-
 Simply run:
-
-python research_agent.py
-
+python main.py
 
 You will see:
-
 🔵 ChatGPT-like Agent Activated!
 Type your question (type 'exit' to quit)...
 
 
 Then type:
-
 You: What is AI?
-
 
 It will search → reason → answer.
 
-📸 Screenshot (Add After Upload)
-
+📸 Screenshot
 Paste this markdown after uploading your screenshot to an images/ folder:
-
-![AI Agent Demo](images/agent_demo.png)
+![AI Agent Demo](AI agent demo.png)
 
 📦 Requirements
 langchain==0.3.0
@@ -111,17 +84,11 @@ duckduckgo-search==5.2.2
 wikipedia==1.4.0
 
 🚀 Future Enhancements
-
 Memory-enabled long-term agent
-
 Vector DB (FAISS/Chroma) integration
-
 Web UI with Streamlit
-
 Automated research agent
-
 Logging & analytics
 
 👨‍💻 Author
-
-Rakib Ahmed
+Md. Rakib Ahmed
