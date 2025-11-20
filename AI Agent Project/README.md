@@ -2,7 +2,7 @@
 
 - A clean, modular, production-ready AI Agent System powered by Google Gemini, LangChain, and custom-built research tools.
 This agent can search the web, fetch Wikipedia data, save outputs, and provide intelligent conversational responses—similar to a lightweight ChatGPT.
-----
+---
 ## ✨ Key Highlights
 - 🚀 Google Gemini LLM (`gemini-2.5-flash`) for reasoning
 - 🔎 DuckDuckGo & Wikipedia integrated research tools
@@ -20,6 +20,11 @@ This agent can search the web, fetch Wikipedia data, save outputs, and provide i
 - │── requirements.txt
 - └── .env                    # Environment config (GEMINI_API_KEY)
 
+## 💡 Note
+## 🚀 **Terminal-Based AI Agent**  
+All queries and responses occur in your **CLI/terminal**.  
+This project does **not** include a web interface.
+---
 ## 🧠 How the Agent Works
 
 **Load .env**
@@ -46,11 +51,11 @@ Exit with `exit` or `quit`
 cd "AI Course/AI Agent Project"`
 
 **2️⃣ Create Virtual Environment**
-Windows
+Windows:
 `python -m venv venv
 venv\Scripts\activate`
 
-Mac/Linux
+Mac/Linux:
 `python3 -m venv venv
 source venv/bin/activate`
 
@@ -73,7 +78,6 @@ Then type your query:
 
 You: What is AI?
 The agent will search, reason, and answer automatically.
-## ✅ Note: This project is terminal/CLI-based, not a web application.
 ---
 ## 📦 Requirements
 - langchain==0.3.0
@@ -84,15 +88,6 @@ The agent will search, reason, and answer automatically.
 - duckduckgo-search==5.2.2
 - wikipedia==1.4.0
 
-## 🚀 Future Enhancements (Optional)
-
-- (These features are NOT in the current project — only future ideas)
-- Memory-enabled long-term agent
-- Vector DB (FAISS/Chroma) integration
-- Web UI with Streamlit
-- Automated research agent
-- Logging & analytics
-
 ## 👨‍💻 Author
-
+---
 Md. Rakib Ahmed
