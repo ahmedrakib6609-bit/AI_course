@@ -4,27 +4,27 @@ A clean, modular, and production-ready AI Agent System powered by Google Gemini,
 This agent can search the web, fetch Wikipedia data, save outputs, and provide intelligent conversational responses—similar to a lightweight ChatGPT.
 ----
 ## ✨ Key Highlights
-*🚀 Google Gemini (gemini-2.5-flash)–powered LLM
-*🔎 DuckDuckGo & Wikipedia integrated research tools
-*💾 Auto-save outputs to a text file
-*🧠 REACT-style reasoning with LangChain
-*🔐 Secured API key handling using .env
-*🧩 Cleanly separated modules (main, tools, agent initializer)
+🚀 Google Gemini (gemini-2.5-flash)–powered LLM
+🔎 DuckDuckGo & Wikipedia integrated research tools
+💾 Auto-save outputs to a text file
+🧠 REACT-style reasoning with LangChain
+🔐 Secured API key handling using .env
+🧩 Cleanly separated modules (main, tools, agent initializer)
 ---
-## 📂 Project Structure
+### 📂 Project Structure
 
-*AI Agent Project/
-*│── README.md
-*│── main.py                # Interactive CLI agent, LLM, tools, and agent setup
-*│── tools.py               # Search, Wiki & Save tools
-*│── research_output.txt    # Auto-generated output log
-*│── requirements.txt
-*└── .env                   # Gnvironment config
+AI Agent Project/
+│── README.md
+│── main.py                # Interactive CLI agent, LLM, tools, and agent setup
+│── tools.py               # Search, Wiki & Save tools
+│── research_output.txt    # Auto-generated output log
+│── requirements.txt
+└── .env                   # Gnvironment config
 ---
-## 🧠 How the Agent Works
+### 🧠 How the Agent Works
 * 🔹 1) Loads settings from .env
 * Loads your GEMINI_API_KEY securely.
-* 🔹 2) Initializes the Gemini LLM
+  🔹 2) Initializes the Gemini LLM
 * Using:
 * ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.2)
 * 🔹 3) Loads custom tools
