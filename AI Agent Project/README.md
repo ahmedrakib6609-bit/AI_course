@@ -4,36 +4,36 @@
 This agent can search the web, fetch Wikipedia data, save outputs, and provide intelligent conversational responses—similar to a lightweight ChatGPT.
 ----
 ## ✨ Key Highlights
--🚀 Google Gemini LLM (gemini-2.5-flash) for reasoning
--🔎 DuckDuckGo & Wikipedia integrated research tools
--💾 Auto-save outputs to a text file (research_output.txt)
--🧠 REACT-style reasoning using LangChain
--🔐 Secured API key handling via .env
--🧩 Modular architecture (main.py, tools.py, research_agent.py)
+- 🚀 Google Gemini LLM (gemini-2.5-flash) for reasoning
+- 🔎 DuckDuckGo & Wikipedia integrated research tools
+- 💾 Auto-save outputs to a text file (research_output.txt)
+- 🧠 REACT-style reasoning using LangChain
+- 🔐 Secured API key handling via .env
+- 🧩 Modular architecture (main.py, tools.py, research_agent.py)
 --
 ## 📂 Project Structure
--AI Agent Project/
--│── README.md               # Documentation
--│── main.py                 # Interactive CLI agent
--│── tools.py                # DuckDuckGo, Wikipedia, Save tool
--│── research_output.txt     # Auto-generated logs
--│── requirements.txt
--└── .env                    # Environment config (GEMINI_API_KEY)
+- AI Agent Project/
+- │── README.md               # Documentation
+- │── main.py                 # Interactive CLI agent
+- │── tools.py                # DuckDuckGo, Wikipedia, Save tool
+- │── research_output.txt     # Auto-generated logs
+- │── requirements.txt
+- └── .env                    # Environment config (GEMINI_API_KEY)
 
 ## 🧠 How the Agent Works
 
 **Load .env**
--Loads your GEMINI_API_KEY securely
--Initialize Gemini LLM
--ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.2)
--Load Custom Tools
--DuckDuckGo Search
--Wikipedia Summary
--Save-to-file Tool
--Create REACT-based Agent
--Think, Search, Read Wikipedia
--Save research automatically
--Provide short answers + opinions
+- Loads your GEMINI_API_KEY securely
+- Initialize Gemini LLM
+- ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.2)
+- Load Custom Tools
+- DuckDuckGo Search
+- Wikipedia Summary
+- Save-to-file Tool
+- Create REACT-based Agent
+- Think, Search, Read Wikipedia
+- Save research automatically
+- Provide short answers + opinions
 ---
 ## ⚡ CLI Interaction:
 
@@ -75,12 +75,6 @@ You: What is AI?
 The agent will search, reason, and answer automatically.
 ## ✅ Note: This project is terminal/CLI-based, not a web application.
 
-📸 Screenshots
-
-After uploading your screenshot to a folder called images/:
-
-![AI Agent Demo](./images/AI_agent_demo.png)
-
 **Centered in GitHub Markdown:**
 
 <p align="center">
@@ -98,12 +92,12 @@ wikipedia==1.4.0
 
 ## 🚀 Future Enhancements (Optional)
 
--(These features are NOT in the current project — only future ideas)
--Memory-enabled long-term agent
--Vector DB (FAISS/Chroma) integration
--Web UI with Streamlit
--Automated research agent
--Logging & analytics
+- (These features are NOT in the current project — only future ideas)
+- Memory-enabled long-term agent
+- Vector DB (FAISS/Chroma) integration
+- Web UI with Streamlit
+- Automated research agent
+- Logging & analytics
 
 ## 👨‍💻 Author
 
